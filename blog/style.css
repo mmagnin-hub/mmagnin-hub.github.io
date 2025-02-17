@@ -55,3 +55,14 @@ footer {
     background-color: #0056b3;
 }
 
+/* Footer link styles */
+footer a {
+    color: #FFD700; /* Gold color for better contrast */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #FFA500; /* Orange on hover */
+    text-decoration: underline;
+}
