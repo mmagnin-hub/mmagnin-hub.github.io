@@ -34,3 +34,24 @@ footer {
     background: #333;
     color: white;
 }
+
+/* Hide full content initially */
+.hidden {
+    display: none;
+}
+
+/* Style the Read More button */
+.read-more {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+

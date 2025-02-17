@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Posts</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script> <!-- Link to JavaScript file -->
 </head>
 <body>
 
@@ -14,11 +15,32 @@
 </header>
 
 <div class="container">
-    <ul>
-        <li><a href="posts/post1.html">My First Blog Post</a> - February 17, 2025</li>
-        <li><a href="posts/post2.html">How I Built This Blog</a> - February 20, 2025</li>
-        <li><a href="posts/post3.html">Cool Projects I’m Working On</a> - February 25, 2025</li>
-    </ul>
+    <article>
+        <h2>My First Blog Post</h2>
+        <p><strong>Published on:</strong> February 17, 2025</p>
+        <p class="preview">This is my first blog post. I'm excited to start sharing my projects and thoughts here!</p>
+        <p class="full-content hidden">Welcome to my first blog post! In this post, I will introduce myself and explain why I started this blog.</p>
+        <button class="read-more">Read More</button>
+        <a href="posts/post1.html">Go to full post →</a>
+    </article>
+
+    <article>
+        <h2>How I Built This Blog</h2>
+        <p><strong>Published on:</strong> February 20, 2025</p>
+        <p class="preview">Building this blog was a fun challenge! I started with GitHub Pages, wrote some basic HTML and CSS...</p>
+        <p class="full-content hidden">I gradually improved it by adding multiple posts and styling it with CSS. Next, I'll make it interactive with JavaScript!</p>
+        <button class="read-more">Read More</button>
+        <a href="posts/post2.html">Go to full post →</a>
+    </article>
+
+    <article>
+        <h2>Cool Projects I'm Working On</h2>
+        <p><strong>Published on:</strong> February 25, 2025</p>
+        <p class="preview">Here are some exciting projects I'm currently working on: a portfolio website, a JavaScript To-Do List...</p>
+        <p class="full-content hidden">I'm also working on a Python Data Analysis project. Stay tuned for more updates on these projects!</p>
+        <button class="read-more">Read More</button>
+        <a href="posts/post3.html">Go to full post →</a>
+    </article>
 </div>
 
 <footer>
